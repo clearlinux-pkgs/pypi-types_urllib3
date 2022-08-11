@@ -4,7 +4,7 @@
 #
 Name     : pypi-types_urllib3
 Version  : 1.26.22
-Release  : 17
+Release  : 18
 URL      : https://files.pythonhosted.org/packages/d2/d8/764ca957d9601d956a87a311b107c9b6171ed5bb0c269e8ae60d91fc0fbf/types-urllib3-1.26.22.tar.gz
 Source0  : https://files.pythonhosted.org/packages/d2/d8/764ca957d9601d956a87a311b107c9b6171ed5bb0c269e8ae60d91fc0fbf/types-urllib3-1.26.22.tar.gz
 Summary  : Typing stubs for urllib3
