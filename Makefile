@@ -1,5 +1,5 @@
 PKG_NAME := pypi-types_urllib3
-URL = https://files.pythonhosted.org/packages/7e/e5/1a3d3c92eb182f62a141e9dac4ca8ca9ad6a610b2464a59c401d8211d3b7/types-urllib3-1.26.25.6.tar.gz
+URL = https://files.pythonhosted.org/packages/fc/89/d95f839ae26e80d221fcc25dd8bf272121e6be00eaee081483b8145261a5/types-urllib3-1.26.25.7.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
