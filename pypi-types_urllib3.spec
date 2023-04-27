@@ -4,10 +4,10 @@
 # Using build pattern: distutils3
 #
 Name     : pypi-types_urllib3
-Version  : 1.26.25.10
-Release  : 36
-URL      : https://files.pythonhosted.org/packages/24/fe/3d379bc854adb3e89309939273dc29471bf790c574cc7cf8bcc3eb8aa840/types-urllib3-1.26.25.10.tar.gz
-Source0  : https://files.pythonhosted.org/packages/24/fe/3d379bc854adb3e89309939273dc29471bf790c574cc7cf8bcc3eb8aa840/types-urllib3-1.26.25.10.tar.gz
+Version  : 1.26.25.11
+Release  : 37
+URL      : https://files.pythonhosted.org/packages/47/96/87d781c3a06443633aa3269b6613fe73b4d0bc49f34833475830a2406b97/types-urllib3-1.26.25.11.tar.gz
+Source0  : https://files.pythonhosted.org/packages/47/96/87d781c3a06443633aa3269b6613fe73b4d0bc49f34833475830a2406b97/types-urllib3-1.26.25.11.tar.gz
 Summary  : Typing stubs for urllib3
 Group    : Development/Tools
 License  : Apache-2.0
@@ -41,10 +41,10 @@ python3 components for the pypi-types_urllib3 package.
 
 
 %prep
-%setup -q -n types-urllib3-1.26.25.10
-cd %{_builddir}/types-urllib3-1.26.25.10
+%setup -q -n types-urllib3-1.26.25.11
+cd %{_builddir}/types-urllib3-1.26.25.11
 pushd ..
-cp -a types-urllib3-1.26.25.10 buildavx2
+cp -a types-urllib3-1.26.25.11 buildavx2
 popd
 
 %build
@@ -52,7 +52,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1680050355
+export SOURCE_DATE_EPOCH=1682608883
 export GCC_IGNORE_WERROR=1
 export AR=gcc-ar
 export RANLIB=gcc-ranlib
